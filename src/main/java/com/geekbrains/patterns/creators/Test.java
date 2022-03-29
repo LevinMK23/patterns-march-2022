@@ -40,7 +40,7 @@ public class Test {
                 .build();
 
         MyClass myClass = MyClass.of(1, 2);
-        
+
         Path.of("dir", "fileName.txt");
         List.of(1, 2, 3, 4);
         Set.of(1, 2, 3);
@@ -51,6 +51,7 @@ public class Test {
         factory.get();
         factory.get(1);
         factory.get(1, 2);
+
 
     }
 

@@ -10,7 +10,6 @@ public class MyClassFactory {
         return MyClass.of(x, x);
     }
 
-
     public MyClass get(int x, int y) {
         return MyClass.of(x, y);
     }
